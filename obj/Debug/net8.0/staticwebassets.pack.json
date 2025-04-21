@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\0835c69e-be6b-4839-9d56-6ce3d7bea8a2.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\0835c69e-be6b-4839-9d56-6ce3d7bea8a2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\4d76ea2a-152d-4335-b5fc-f07cd8bf6c89.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\4d76ea2a-152d-4335-b5fc-f07cd8bf6c89.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\613022d1-ed72-4560-afce-ac202000c5c7.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\613022d1-ed72-4560-afce-ac202000c5c7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\7570aa19-4f1b-4321-bcfc-b8b62e901060.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7570aa19-4f1b-4321-bcfc-b8b62e901060.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\a2be792e-62d7-470d-8688-325ad7bcf163.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\a2be792e-62d7-470d-8688-325ad7bcf163.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\b03fdee3-c570-48b1-9aac-48a3a9cc3f8b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b03fdee3-c570-48b1-9aac-48a3a9cc3f8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\b9d89365-95f1-4adc-8281-d3e49db46a4c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b9d89365-95f1-4adc-8281-d3e49db46a4c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\dcd83ebc-62dd-4ac3-866e-e66c9454fa91.jpg",
+      "PackagePath": "staticwebassets\\uploads\\dcd83ebc-62dd-4ac3-866e-e66c9454fa91.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\ef665518-a08d-4672-8eb1-3a6b8b642670.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ef665518-a08d-4672-8eb1-3a6b8b642670.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pinar\\OneDrive\\Masaüstü\\WardrobeBackendd\\wwwroot\\uploads\\f59194a5-933a-446f-b166-131f315c4278.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\f59194a5-933a-446f-b166-131f315c4278.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WardrobeBackendd.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WardrobeBackendd.props",
+      "PackagePath": "build\\WardrobeBackendd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WardrobeBackendd.props",
+      "PackagePath": "buildMultiTargeting\\WardrobeBackendd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WardrobeBackendd.props",
+      "PackagePath": "buildTransitive\\WardrobeBackendd.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
