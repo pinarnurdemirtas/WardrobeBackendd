@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using WardrobeBackendd.Model;
 using WardrobeBackendd.Repositories;
 
@@ -64,4 +65,66 @@ public class CombineService
     {
         return await _repository.GetCombinesByUserIdAsync(userId);
     }
+
+	public async Task<List<CombineWithClothesDto>> GetCombinesWithClothesByUserAsync(int userId)
+	{
+		var combines = await _repository.GetCombinesByUserIdAsync(userId);
+		var combineDtos = new List<CombineWithClothesDto>();
+
+		foreach (var combine in combines)
+		{
+			var combineClothes = await _repository.GetCombineClothesByCombineIdAsync(combine.Id);
+			var clothesIds = combineClothes.Select(cc => cc.ClothId).ToList();
+
+			var allClothes = await _repository.GetAllClothesAsync(); 
+			var clothes = allClothes
+				.Where(cl => clothesIds.Contains(cl.Id))
+				.ToList();
+
+			combineDtos.Add(new CombineWithClothesDto
+			{
+				Id = combine.Id,
+				UserId = combine.UserId,
+				Name = combine.Name,
+				CreatedAt = combine.CreatedAt,
+				IsFavorite = combine.IsFavorite,
+				IsPublic = combine.IsPublic,
+				Clothes = clothes
+			});
+		}
+
+		return combineDtos;
+	}
+
+	public async Task<List<CombineWithClothesDto>> GetFavoriteCombinesWithClothesAsync(int userId)
+	{
+		var combines = await _repository.GetFavoriteCombinesAsync(userId);
+		var combineDtos = new List<CombineWithClothesDto>();
+
+		foreach (var combine in combines)
+		{
+			var combineClothes = await _repository.GetCombineClothesByCombineIdAsync(combine.Id);
+			var clothesIds = combineClothes.Select(cc => cc.ClothId).ToList();
+
+			var allClothes = await _repository.GetAllClothesAsync();
+			var clothes = allClothes.Where(cl => clothesIds.Contains(cl.Id)).ToList();
+
+			combineDtos.Add(new CombineWithClothesDto
+			{
+				Id = combine.Id,
+				UserId = combine.UserId,
+				Name = combine.Name,
+				CreatedAt = combine.CreatedAt,
+				IsFavorite = combine.IsFavorite,
+				IsPublic = combine.IsPublic,
+				Clothes = clothes
+			});
+		}
+
+		return combineDtos;
+	}
+
+
+
+
 }

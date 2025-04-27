@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\services\\clothingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:services\\clothingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\iclothingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\iclothingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\clothingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\clothingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\parentcategorygroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\parentcategorygroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\clothingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\clothingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +31,88 @@
       "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\combinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\combinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\services\\clothingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:services\\clothingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\clothinggroupeddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\clothinggroupeddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\services\\interactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:services\\interactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\interactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\interactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\iinteractionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\iinteractionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\combinewithclothesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\combinewithclothesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\interactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\interactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\combinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\combinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\services\\combineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:services\\combineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\combinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\combinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\icombinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\icombinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\clothes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\clothes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\clothingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\clothingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\combineclothes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\combineclothes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\combine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\combine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\categoryclothesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\categoryclothesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\denemeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,14 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\controller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|solutionrelative:controller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14D97BBB-7E36-44CB-AC04-B772E70D8F13}|WardrobeBackendd.csproj|c:\\users\\pinar\\onedrive\\masa\u00FCst\u00FC\\wardrobebackendd\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -82,63 +154,362 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controller\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\CategoryController.cs",
-              "RelativeToolTip": "Controller\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ParentCategoryGroupDto.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\ParentCategoryGroupDto.cs",
+              "RelativeDocumentMoniker": "Model\\ParentCategoryGroupDto.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\ParentCategoryGroupDto.cs",
+              "RelativeToolTip": "Model\\ParentCategoryGroupDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T15:49:58.185Z",
+              "WhenOpened": "2025-04-26T11:17:55.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IClothingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\IClothingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IClothingRepository.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\IClothingRepository.cs",
+              "RelativeToolTip": "Repositories\\IClothingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:56:35.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CombineController.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\CombineController.cs",
-              "RelativeDocumentMoniker": "Controller\\CombineController.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\CombineController.cs",
-              "RelativeToolTip": "Controller\\CombineController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ClothingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\ClothingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ClothingRepository.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\ClothingRepository.cs",
+              "RelativeToolTip": "Repositories\\ClothingRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T15:49:54.908Z",
+              "WhenOpened": "2025-04-20T19:57:45.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClothingController.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\ClothingController.cs",
-              "RelativeDocumentMoniker": "Controller\\ClothingController.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\ClothingController.cs",
-              "RelativeToolTip": "Controller\\ClothingController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwFAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T19:55:35.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ClothingService.cs",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\ClothingService.cs",
               "RelativeDocumentMoniker": "Services\\ClothingService.cs",
               "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\ClothingService.cs",
               "RelativeToolTip": "Services\\ClothingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T19:55:25.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:54:43.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClothingController.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\ClothingController.cs",
+              "RelativeDocumentMoniker": "Controller\\ClothingController.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\ClothingController.cs",
+              "RelativeToolTip": "Controller\\ClothingController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:55:35.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controller\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\CategoryController.cs",
+              "RelativeToolTip": "Controller\\CategoryController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:49:58.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IInteractionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\IInteractionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IInteractionRepository.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\IInteractionRepository.cs",
+              "RelativeToolTip": "Repositories\\IInteractionRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:07:27.944Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T19:10:07.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClothingGroupedDto.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\ClothingGroupedDto.cs",
+              "RelativeDocumentMoniker": "Model\\ClothingGroupedDto.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\ClothingGroupedDto.cs",
+              "RelativeToolTip": "Model\\ClothingGroupedDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:03:43.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InteractionService.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\InteractionService.cs",
+              "RelativeDocumentMoniker": "Services\\InteractionService.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\InteractionService.cs",
+              "RelativeToolTip": "Services\\InteractionService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:06:04.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\AuthController.cs",
+              "RelativeToolTip": "Controller\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:53:51.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CombineWithClothesDto.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\CombineWithClothesDto.cs",
+              "RelativeDocumentMoniker": "Model\\CombineWithClothesDto.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\CombineWithClothesDto.cs",
+              "RelativeToolTip": "Model\\CombineWithClothesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:28:55.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CombineService.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\CombineService.cs",
+              "RelativeDocumentMoniker": "Services\\CombineService.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\CombineService.cs",
+              "RelativeToolTip": "Services\\CombineService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:29:26.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InteractionController.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\InteractionController.cs",
+              "RelativeDocumentMoniker": "Controller\\InteractionController.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\InteractionController.cs",
+              "RelativeToolTip": "Controller\\InteractionController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:04:38.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InteractionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\InteractionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InteractionRepository.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\InteractionRepository.cs",
+              "RelativeToolTip": "Repositories\\InteractionRepository.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAA7wFUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:07:43.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CombineClothes.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\CombineClothes.cs",
+              "RelativeDocumentMoniker": "Model\\CombineClothes.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\CombineClothes.cs",
+              "RelativeToolTip": "Model\\CombineClothes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:22:31.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Combine.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Combine.cs",
+              "RelativeDocumentMoniker": "Model\\Combine.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Combine.cs",
+              "RelativeToolTip": "Model\\Combine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:22:24.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CombineController.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\CombineController.cs",
+              "RelativeDocumentMoniker": "Controller\\CombineController.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\CombineController.cs",
+              "RelativeToolTip": "Controller\\CombineController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:49:54.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICombineRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\ICombineRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICombineRepository.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\ICombineRepository.cs",
+              "RelativeToolTip": "Repositories\\ICombineRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:32:01.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CombineRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\CombineRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CombineRepository.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\CombineRepository.cs",
+              "RelativeToolTip": "Repositories\\CombineRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:32:25.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\ColorController.cs",
+              "RelativeDocumentMoniker": "Controller\\ColorController.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\ColorController.cs",
+              "RelativeToolTip": "Controller\\ColorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:00:39.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Clothes.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Clothes.cs",
+              "RelativeDocumentMoniker": "Model\\Clothes.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Clothes.cs",
+              "RelativeToolTip": "Model\\Clothes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:57:49.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:56:36.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "Model\\Category.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Category.cs",
+              "RelativeToolTip": "Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:12:45.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Users.cs",
+              "RelativeDocumentMoniker": "Model\\Users.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Users.cs",
+              "RelativeToolTip": "Model\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:26:08.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controller\\UsersController.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\UsersController.cs",
+              "RelativeToolTip": "Controller\\UsersController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T13:29:22.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryClothesDto.cs",
+              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\CategoryClothesDto.cs",
+              "RelativeDocumentMoniker": "Model\\CategoryClothesDto.cs",
+              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\CategoryClothesDto.cs",
+              "RelativeToolTip": "Model\\CategoryClothesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:12:33.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Color.cs",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Color.cs",
               "RelativeDocumentMoniker": "Model\\Color.cs",
@@ -151,57 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ColorController.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\ColorController.cs",
-              "RelativeDocumentMoniker": "Controller\\ColorController.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\ColorController.cs",
-              "RelativeToolTip": "Controller\\ColorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T19:00:39.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClothingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\ClothingRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ClothingRepository.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Repositories\\ClothingRepository.cs",
-              "RelativeToolTip": "Repositories\\ClothingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T19:57:45.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T19:10:07.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Clothes.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Clothes.cs",
-              "RelativeDocumentMoniker": "Model\\Clothes.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Clothes.cs",
-              "RelativeToolTip": "Model\\Clothes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T19:57:49.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 31,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Services\\EmailService.cs",
@@ -213,32 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Users.cs",
-              "RelativeDocumentMoniker": "Model\\Users.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\Users.cs",
-              "RelativeToolTip": "Model\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T19:26:08.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controller\\UsersController.cs",
-              "ToolTip": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\UsersController.cs",
-              "RelativeToolTip": "Controller\\UsersController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAxwCoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T13:29:22.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -250,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 34,
               "Title": "WardrobeBackendd.http",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\WardrobeBackendd.http",
               "RelativeDocumentMoniker": "WardrobeBackendd.http",
@@ -262,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -274,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 30,
               "Title": "denemeController.cs",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Controller\\denemeController.cs",
               "RelativeDocumentMoniker": "Controller\\denemeController.cs",
@@ -285,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -297,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\pinar\\OneDrive\\Masa\u00FCst\u00FC\\WardrobeBackendd\\Model\\LoginModel.cs",
               "RelativeDocumentMoniker": "Model\\LoginModel.cs",

@@ -59,5 +59,11 @@ namespace WardrobeBackendd.Repositories
 
             return result;
         }
-    }
+
+		public async Task<List<Category>> GetAllCategoriesAsync()
+		{
+			return await _context.Category.ToListAsync();
+		}
+
+	}
 }

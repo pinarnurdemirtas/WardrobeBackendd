@@ -67,6 +67,26 @@ namespace WardrobeBackendd.Repositories
             _context.Combines.Update(combine);
             await _context.SaveChangesAsync();
         }
-    }
+
+		public async Task<List<Clothes>> GetAllClothesAsync()
+		{
+			return await _context.Clothes.ToListAsync();
+		}
+
+		public async Task<List<CombineClothes>> GetCombineClothesByCombineIdAsync(int combineId)
+		{
+			return await _context.CombineClothes
+				.Where(cc => cc.CombineId == combineId)
+				.ToListAsync();
+		}
+
+		public async Task<List<Clothes>> GetClothesByIdsAsync(List<int> clothIds)
+		{
+			return await _context.Clothes
+				.Where(cl => clothIds.Contains(cl.Id))
+				.ToListAsync();
+		}
+
+	}
 }
 

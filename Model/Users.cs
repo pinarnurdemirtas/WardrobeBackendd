@@ -9,4 +9,6 @@ public class Users
     public string Fullname { get; set; }
     public string City { get; set; }
     public bool Is_verified { get; set; }
+	public string Gender { get; set; } 
+
 }

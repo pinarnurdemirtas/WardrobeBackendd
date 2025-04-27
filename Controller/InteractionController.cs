@@ -51,23 +51,24 @@ public class InteractionController : ControllerBase
         }
     }
 
-    // Yayınlanmış kombinleri getirir (keşfet sayfası)
-    [HttpGet("explore")]
-    public async Task<IActionResult> GetExploreCombines()
-    {
-        try
-        {
-            var combines = await _interactionService.GetPublicCombinesAsync();
-            return Ok(combines);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, new { message = "Keşfet kombinleri alınamadı.", detay = ex.Message });
-        }
-    }
+	// Yayınlanmış kombinleri getirir (keşfet sayfası)
+	[HttpGet("explore")]
+	public async Task<IActionResult> GetExploreCombines()
+	{
+		try
+		{
+			var combines = await _interactionService.GetPublicCombinesWithClothesAsync(); // 👈 DTO'lu versiyon
+			return Ok(combines);
+		}
+		catch (Exception ex)
+		{
+			return StatusCode(500, new { message = "Keşfet kombinleri alınamadı.", detay = ex.Message });
+		}
+	}
 
-    // Kombini beğenir
-    [HttpPost("like/{combineId}/{userId}")]
+
+	// Kombini beğenir
+	[HttpPost("like/{combineId}/{userId}")]
     public async Task<IActionResult> LikeCombine(int combineId, int userId)
     {
         try

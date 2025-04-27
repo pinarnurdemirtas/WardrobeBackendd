@@ -2,13 +2,12 @@ using WardrobeBackendd.Model;
 
 namespace WardrobeBackendd.Repositories
 {
-    public interface ICategoryRepository
-    {
-        // Ana kategorileri getirir (ParentID null olanlar)
-        IEnumerable<Category> GetMainCategories(); 
-        
-        // Belirli bir kategoriye ait alt kategorileri getirir
-        IEnumerable<Category> GetSubCategories(int parentId);
-    }
+	public interface ICategoryRepository
+	{
+		// Ana kategorileri getirir (ParentID null olanlar)
+		IEnumerable<Category> GetMainCategories();
 
+		// Cinsiyete g�re alt kategorileri getirir
+		IEnumerable<Category> GetSubCategoriesByGender(int parentId, string gender);
+	}
 }

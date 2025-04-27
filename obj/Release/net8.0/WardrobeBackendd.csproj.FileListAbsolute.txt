@@ -89,3 +89,4 @@ C:\Users\pinar\OneDrive\Masaüstü\WardrobeBackendd\bin\Release\net8.0\System.Dr
 C:\Users\pinar\OneDrive\Masaüstü\WardrobeBackendd\bin\Release\net8.0\System.Private.Windows.Core.dll
 C:\Users\pinar\OneDrive\Masaüstü\WardrobeBackendd\bin\Release\net8.0\System.Private.Windows.GdiPlus.dll
 C:\Users\pinar\OneDrive\Masaüstü\WardrobeBackendd\bin\Release\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pinar\OneDrive\Masaüstü\WardrobeBackendd\obj\Release\net8.0\WardrobeBackendd.sourcelink.json

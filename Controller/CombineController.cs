@@ -60,33 +60,35 @@ public class CombineController : ControllerBase
         }
     }
 
-    // Kullanıcının favori kombinlerini getirir
-    [HttpGet("favorites/{userId}")]
-    public async Task<IActionResult> GetFavorites(int userId)
-    {
-        try
-        {
-            var result = await _combineService.GetFavoriteCombinesAsync(userId);
-            return Ok(result);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, new { message = "Favori kombinler alınamadı.", detay = ex.Message });
-        }
-    }
+	// Kullanıcının favori kombinlerini getirir
+	[HttpGet("favorites/{userId}")]
+	public async Task<IActionResult> GetFavorites(int userId)
+	{
+		try
+		{
+			var result = await _combineService.GetFavoriteCombinesWithClothesAsync(userId);
+			return Ok(result);
+		}
+		catch (Exception ex)
+		{
+			return StatusCode(500, new { message = "Favori kombinler alınamadı.", detay = ex.Message });
+		}
+	}
 
-    // Kullanıcının tüm kombinlerini getirir
-    [HttpGet("user/{userId}")]
-    public async Task<IActionResult> GetUserCombines(int userId)
-    {
-        try
-        {
-            var result = await _combineService.GetCombinesByUserAsync(userId);
-            return Ok(result);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, new { message = "Kullanıcının kombinleri alınamadı.", detay = ex.Message });
-        }
-    }
+
+	// Kullanıcının tüm kombinlerini getirir
+	[HttpGet("user/{userId}")]
+	public async Task<IActionResult> GetUserCombines(int userId)
+	{
+		try
+		{
+			var result = await _combineService.GetCombinesWithClothesByUserAsync(userId);
+			return Ok(result);
+		}
+		catch (Exception ex)
+		{
+			return StatusCode(500, new { message = "Kullanıcının kombinleri alınamadı.", detay = ex.Message });
+		}
+	}
+
 }

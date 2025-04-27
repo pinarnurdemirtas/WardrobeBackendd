@@ -27,4 +27,9 @@ public interface IInteractionRepository
 
     // Kombine ait yorumları getirir
     Task<List<Comment>> GetCommentsByCombineIdAsync(int combineId);
+	Task<List<CombineClothes>> GetCombineClothesByCombineIdAsync(int combineId);
+	Task<List<Users>> GetAllUsersAsync();
+
+	Task<List<Clothes>> GetAllClothesAsync();
+
 }

@@ -24,4 +24,9 @@ public interface ICombineRepository
 
     // Kullanıcının tüm kombinlerini getirir
     Task<List<Combine>> GetCombinesByUserIdAsync(int userId);
+	Task<List<CombineClothes>> GetCombineClothesByCombineIdAsync(int combineId);
+	Task<List<Clothes>> GetClothesByIdsAsync(List<int> clothIds);
+	Task<List<Clothes>> GetAllClothesAsync();
+
+
 }

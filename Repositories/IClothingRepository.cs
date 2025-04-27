@@ -18,5 +18,7 @@ namespace WardrobeBackendd.Repositories
 
         // Kıyafetleri kategoriye göre gruplar
         Task<List<CategoryClothesDto>> GetClothesGroupedByCategoryAsync(int userId);
-    }
+		Task<List<Category>> GetAllCategoriesAsync();
+
+	}
 }

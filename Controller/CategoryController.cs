@@ -28,20 +28,21 @@ namespace WardrobeBackendd.Controller
                 return StatusCode(500, new { message = "Ana kategoriler alınamadı.", detay = ex.Message });
             }
         }
+        
+		// Alt kategorileri cinsiyete göre getirir
+		[HttpGet("subcategories/{parentId}/gender/{gender}")]
+		public IActionResult GetSubCategoriesByGender(int parentId, string gender)
+		{
+			try
+			{
+				var subCategories = _categoryRepository.GetSubCategoriesByGender(parentId, gender);
+				return Ok(subCategories);
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(500, new { message = "Alt kategoriler alınamadı.", detay = ex.Message });
+			}
+		}
 
-        // Belirli bir ana kategoriye ait alt kategorileri getirir
-        [HttpGet("subcategories/{parentId}")]
-        public IActionResult GetSubCategories(int parentId)
-        {
-            try
-            {
-                var subCategories = _categoryRepository.GetSubCategories(parentId);
-                return Ok(subCategories);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Alt kategoriler alınamadı.", detay = ex.Message });
-            }
-        }
-    }
+	}
 }

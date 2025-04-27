@@ -1,83 +1,108 @@
 using WardrobeBackendd.Model;
 using WardrobeBackendd.Repositories;
 
-namespace WardrobeBackendd.Services;
-
 public class InteractionService
 {
-    private readonly IInteractionRepository _interactionRepository;
+	private readonly IInteractionRepository _interactionRepository;
 
-    public InteractionService(IInteractionRepository interactionRepository)
-    {
-        _interactionRepository = interactionRepository;
-    }
+	public InteractionService(IInteractionRepository interactionRepository)
+	{
+		_interactionRepository = interactionRepository;
+	}
 
-    // Kombini keşfete yayınlar
-    public async Task<bool> PublishCombineAsync(int combineId)
-    {
-        var combine = await _interactionRepository.GetCombineByIdAsync(combineId);
-        if (combine == null)
-            return false;
+	public async Task<bool> PublishCombineAsync(int combineId)
+	{
+		var combine = await _interactionRepository.GetCombineByIdAsync(combineId);
+		if (combine == null)
+			return false;
 
-        combine.IsPublic = 1;
-        await _interactionRepository.UpdateCombineAsync(combine);
-        return true;
-    }
+		combine.IsPublic = 1;
+		await _interactionRepository.UpdateCombineAsync(combine);
+		return true;
+	}
 
-    // Kombin görünürlüğünü aç/kapa yapar
-    public async Task<bool> ToggleCombineVisibilityAsync(int combineId)
-    {
-        var combine = await _interactionRepository.GetCombineByIdAsync(combineId);
-        if (combine == null)
-            return false;
+	public async Task<bool> ToggleCombineVisibilityAsync(int combineId)
+	{
+		var combine = await _interactionRepository.GetCombineByIdAsync(combineId);
+		if (combine == null)
+			return false;
 
-        combine.IsPublic = combine.IsPublic == 1 ? 0 : 1;
-        await _interactionRepository.UpdateCombineAsync(combine);
-        return true;
-    }
+		combine.IsPublic = combine.IsPublic == 1 ? 0 : 1;
+		await _interactionRepository.UpdateCombineAsync(combine);
+		return true;
+	}
 
-    // Yayınlanmış kombinleri getirir
-    public async Task<List<Combine>> GetPublicCombinesAsync()
-    {
-        return await _interactionRepository.GetPublicCombinesAsync();
-    }
+	public async Task<List<CombineWithClothesDto>> GetPublicCombinesWithClothesAsync()
+	{
+		var publicCombines = await _interactionRepository.GetPublicCombinesAsync();
+		var combineDtos = new List<CombineWithClothesDto>();
 
-    // Beğeni ekler (kullanıcı daha önce beğenmediyse)
-    public async Task LikeCombineAsync(int userId, int combineId)
-    {
-        var alreadyLiked = await _interactionRepository.HasUserLikedAsync(userId, combineId);
-        if (!alreadyLiked)
-        {
-            await _interactionRepository.AddLikeAsync(new Like
-            {
-                UserId = userId,
-                CombineId = combineId,
-                CreatedAt = DateTime.Now
-            });
-        }
-    }
+		var allClothes = await _interactionRepository.GetAllClothesAsync();
+		var allUsers = await _interactionRepository.GetAllUsersAsync(); // 👈 Yeni eklenen kullanıcılar
 
-    // Kombinin beğeni sayısını getirir
-    public async Task<int> GetLikeCountAsync(int combineId)
-    {
-        return await _interactionRepository.GetLikeCountAsync(combineId);
-    }
+		foreach (var combine in publicCombines)
+		{
+			var combineClothes = await _interactionRepository.GetCombineClothesByCombineIdAsync(combine.Id);
+			var clothesIds = combineClothes.Select(cc => cc.ClothId).ToList();
+			var clothes = allClothes.Where(cl => clothesIds.Contains(cl.Id)).ToList();
 
-    // Kombine yorum ekler
-    public async Task AddCommentAsync(int combineId, AddCommentDto dto)
-    {
-        await _interactionRepository.AddCommentAsync(new Comment
-        {
-            UserId = dto.UserId,
-            CombineId = combineId,
-            Text = dto.Text,
-            CreatedAt = DateTime.Now
-        });
-    }
+			var user = allUsers.FirstOrDefault(u => u.Id == combine.UserId); // 👈 User bilgisi
 
-    // Kombine ait yorumları getirir
-    public async Task<List<Comment>> GetCommentsAsync(int combineId)
-    {
-        return await _interactionRepository.GetCommentsByCombineIdAsync(combineId);
-    }
+			combineDtos.Add(new CombineWithClothesDto
+			{
+				Id = combine.Id,
+				UserId = combine.UserId,
+				Name = combine.Name,
+				CreatedAt = combine.CreatedAt,
+				IsFavorite = combine.IsFavorite,
+				IsPublic = combine.IsPublic,
+				Clothes = clothes,
+				UserFullName = user != null ? $"{user.Fullname}" : null,
+				City = user?.City
+			});
+		}
+
+		return combineDtos;
+	}
+
+
+	public async Task<List<Combine>> GetPublicCombinesAsync()
+	{
+		return await _interactionRepository.GetPublicCombinesAsync();
+	}
+
+	public async Task LikeCombineAsync(int userId, int combineId)
+	{
+		var alreadyLiked = await _interactionRepository.HasUserLikedAsync(userId, combineId);
+		if (!alreadyLiked)
+		{
+			await _interactionRepository.AddLikeAsync(new Like
+			{
+				UserId = userId,
+				CombineId = combineId,
+				CreatedAt = DateTime.Now
+			});
+		}
+	}
+
+	public async Task<int> GetLikeCountAsync(int combineId)
+	{
+		return await _interactionRepository.GetLikeCountAsync(combineId);
+	}
+
+	public async Task AddCommentAsync(int combineId, AddCommentDto dto)
+	{
+		await _interactionRepository.AddCommentAsync(new Comment
+		{
+			UserId = dto.UserId,
+			CombineId = combineId,
+			Text = dto.Text,
+			CreatedAt = DateTime.Now
+		});
+	}
+
+	public async Task<List<Comment>> GetCommentsAsync(int combineId)
+	{
+		return await _interactionRepository.GetCommentsByCombineIdAsync(combineId);
+	}
 }

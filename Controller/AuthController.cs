@@ -42,14 +42,15 @@ namespace WardrobeBackendd.Controller
                 bool success = await _userService.RegisterUser(newUser);
                 return success ? Ok("Kayıt başarılı.") : BadRequest("Kullanıcı adı kullanılıyor.");
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Kayıt işlemi sırasında bir hata oluştu.", detay = ex.Message });
-            }
-        }
+			catch (Exception ex)
+			{
+				return BadRequest(new { message = "Kayıt işlemi sırasında bir hata oluştu.", detay = ex.InnerException?.Message ?? ex.Message });
+			}
 
-        // Kullanıcıyı doğrulama
-        [HttpGet("register/verify/{username}")]
+		}
+
+		// Kullanıcıyı doğrulama
+		[HttpGet("register/verify/{username}")]
         public async Task<IActionResult> VerifyUser(string username)
         {
             try

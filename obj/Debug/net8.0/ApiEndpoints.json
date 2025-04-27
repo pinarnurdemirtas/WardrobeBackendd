@@ -59,8 +59,8 @@
   },
   {
     "ContainingType": "WardrobeBackendd.Controller.CategoriesController",
-    "Method": "GetSubCategories",
-    "RelativePath": "api/Categories/subcategories/{parentId}",
+    "Method": "GetSubCategoriesByGender",
+    "RelativePath": "api/Categories/subcategories/{parentId}/gender/{gender}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -68,6 +68,11 @@
       {
         "Name": "parentId",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gender",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -91,6 +96,22 @@
   },
   {
     "ContainingType": "WardrobeBackendd.Controller.ClothingController",
+    "Method": "GetClothesGroupedByCategory",
+    "RelativePath": "api/Clothing/clothes/grouped/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.ClothingController",
     "Method": "DeleteClothing",
     "RelativePath": "api/Clothing/deleteClothing{id}",
     "HttpMethod": "DELETE",
@@ -99,6 +120,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.ClothingController",
+    "Method": "GetClothesGroupedByMainCategory",
+    "RelativePath": "api/Clothing/grouped-by-maincategory/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -145,6 +182,202 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.CombineController",
+    "Method": "MarkFavorite",
+    "RelativePath": "api/Combine/{combineId}/favorite",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.CombineController",
+    "Method": "ToggleFavorite",
+    "RelativePath": "api/Combine/{combineId}/toggle-favorite",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.CombineController",
+    "Method": "CreateCombine",
+    "RelativePath": "api/Combine/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WardrobeBackendd.Model.CreateCombineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.CombineController",
+    "Method": "GetFavorites",
+    "RelativePath": "api/Combine/favorites/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.CombineController",
+    "Method": "GetUserCombines",
+    "RelativePath": "api/Combine/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.InteractionController",
+    "Method": "AddComment",
+    "RelativePath": "api/Interaction/comment/{combineId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "WardrobeBackendd.Model.AddCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.InteractionController",
+    "Method": "GetComments",
+    "RelativePath": "api/Interaction/comments/{combineId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.InteractionController",
+    "Method": "GetExploreCombines",
+    "RelativePath": "api/Interaction/explore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.InteractionController",
+    "Method": "GetLikeCount",
+    "RelativePath": "api/Interaction/like-count/{combineId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.InteractionController",
+    "Method": "LikeCombine",
+    "RelativePath": "api/Interaction/like/{combineId}/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.InteractionController",
+    "Method": "PublishCombine",
+    "RelativePath": "api/Interaction/publish/{combineId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.InteractionController",
+    "Method": "ToggleCombineVisibility",
+    "RelativePath": "api/Interaction/toggle-visibility/{combineId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "combineId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

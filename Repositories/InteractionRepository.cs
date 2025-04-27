@@ -69,4 +69,23 @@ public class InteractionRepository : IInteractionRepository
             .OrderByDescending(c => c.CreatedAt)
             .ToListAsync();
     }
+
+	
+
+	public async Task<List<CombineClothes>> GetCombineClothesByCombineIdAsync(int combineId)
+	{
+		return await _context.CombineClothes
+			.Where(cc => cc.CombineId == combineId)
+			.ToListAsync();
+	}
+
+	public async Task<List<Clothes>> GetAllClothesAsync()
+	{
+		return await _context.Clothes.ToListAsync();
+	}
+	public async Task<List<Users>> GetAllUsersAsync()
+	{
+		return await _context.Users.ToListAsync();
+	}
+
 }

@@ -69,4 +69,39 @@ public class ClothingService
 	{
 		return await _repository.GetClothesGroupedByCategoryAsync(userId);
 	}
+
+	public async Task<List<ParentCategoryGroupDto>> GetClothesGroupedByParentCategoryAsync(int userId)
+	{
+		var clothes = await _repository.GetClothesByUserIdAsync(userId); // tüm kıyafetleri çek
+		var categories = await _repository.GetAllCategoriesAsync(); // tüm kategorileri çek
+
+		var result = clothes
+			.Select(clothing => new
+			{
+				Clothing = clothing,
+				Category = categories.FirstOrDefault(c => c.Id == clothing.Category_id)
+			})
+			.Where(x => x.Category != null)
+			.GroupBy(x => x.Category.ParentID) // ParentId'ye göre grupla
+			.Select(g => new ParentCategoryGroupDto
+			{
+				ParentCategoryId = g.Key ?? 0, // Eğer null ise 0 ata
+				ParentCategoryName = categories.FirstOrDefault(c => c.Id == g.Key)?.Name ?? "Bilinmeyen",
+				Clothes = g.Select(x => new ClothingDto
+				{
+					Id = x.Clothing.Id,
+					UserId = x.Clothing.User_id,
+					Name = x.Clothing.Name,
+					ImageUrl = x.Clothing.Image_url,
+					CategoryId = x.Clothing.Category_id,
+					SeasonId = x.Clothing.Season_id,
+					ColorId = x.Clothing.ColorId
+				}).ToList()
+			})
+			.ToList();
+
+		return result;
+	}
+
+
 }

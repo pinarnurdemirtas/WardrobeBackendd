@@ -104,5 +104,23 @@ namespace WardrobeBackendd.Controller
                 return StatusCode(500, new { message = $"Hata: {ex.Message}" });
             }
         }
-    }
+
+		[HttpGet("clothes/grouped-by-parent/{userId}")]
+		public async Task<IActionResult> GetClothesGroupedByParentCategory(int userId)
+		{
+			try
+			{
+				var result = await _clothingService.GetClothesGroupedByParentCategoryAsync(userId);
+				if (result == null || result.Count == 0)
+					return NotFound(new { message = "Hiç kıyafet bulunamadı." });
+
+				return Ok(result);
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(500, new { message = $"Hata: {ex.Message}" });
+			}
+		}
+
+	}
 }
