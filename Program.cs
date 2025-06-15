@@ -26,6 +26,11 @@ builder.Services.AddScoped<CombineService>();
 builder.Services.AddScoped<ClothingService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<EmailService>();
+builder.Services.AddScoped<ColorService>();
+builder.Services.AddScoped<RecommendationService>();
+builder.Services.AddScoped<ClothingService>();
+builder.Services.AddScoped<WeatherService>();
+
 builder.Services.AddScoped<Security>();
 
 
@@ -86,6 +91,7 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
+
 
 var app = builder.Build();
 

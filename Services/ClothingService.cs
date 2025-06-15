@@ -103,5 +103,8 @@ public class ClothingService
 		return result;
 	}
 
-
+	internal async Task AddClothingAsync(ClothingDto newClothing)
+	{
+		throw new NotImplementedException();
+	}
 }

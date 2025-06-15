@@ -18,6 +18,7 @@ namespace WardrobeBackendd.Data
         public DbSet<Color> Colors { get; set; }
         public DbSet<Like> Likes { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Season> Season { get; set; }
 
 
 

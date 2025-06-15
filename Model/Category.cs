@@ -6,5 +6,6 @@ public class Category
     public string Name { get; set; }
     public int? ParentID { get; set; }
 	public string Gender { get; set; }
+	public ICollection<Clothes> Clothes { get; set; }
 
 }

@@ -96,6 +96,22 @@
   },
   {
     "ContainingType": "WardrobeBackendd.Controller.ClothingController",
+    "Method": "GetClothesGroupedByParentCategory",
+    "RelativePath": "api/Clothing/clothes/grouped-by-parent/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controller.ClothingController",
     "Method": "GetClothesGroupedByCategory",
     "RelativePath": "api/Clothing/clothes/grouped/{userId}",
     "HttpMethod": "GET",
@@ -128,22 +144,6 @@
   },
   {
     "ContainingType": "WardrobeBackendd.Controller.ClothingController",
-    "Method": "GetClothesGroupedByMainCategory",
-    "RelativePath": "api/Clothing/grouped-by-maincategory/{userId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WardrobeBackendd.Controller.ClothingController",
     "Method": "AddClothing",
     "RelativePath": "api/Clothing/newClothing",
     "HttpMethod": "POST",
@@ -152,7 +152,7 @@
     "Parameters": [
       {
         "Name": "newClothing",
-        "Type": "WardrobeBackendd.Model.Clothes",
+        "Type": "Clothes",
         "IsRequired": true
       }
     ],
@@ -376,6 +376,27 @@
         "Name": "combineId",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WardrobeBackendd.Controllers.OutfitController",
+    "Method": "GetSuggestions",
+    "RelativePath": "api/Outfit/suggest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "temperature",
+        "Type": "System.Double",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

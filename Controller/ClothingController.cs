@@ -33,26 +33,38 @@ namespace WardrobeBackendd.Controller
             }
         }
 
-        // Yeni kıyafet ekler
-        [HttpPost("newClothing")]
-        public async Task<IActionResult> AddClothing([FromBody] Clothes newClothing)
-        {
-            try
-            {
-                if (newClothing == null || string.IsNullOrEmpty(newClothing.Image_url))
-                    return BadRequest(new { message = "Eksik veri." });
+		// Yeni kıyafet ekler
+		[HttpPost("newClothing")]
+		public async Task<IActionResult> AddClothing([FromBody] Cloth cloth)
+		{
+			try
+			{
+				if (cloth == null || string.IsNullOrEmpty(cloth.Image_url))
+					return BadRequest(new { message = "Eksik veri." });
 
-                var result = await _clothingService.AddClothingAsync(newClothing);
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = $"Hata: {ex.Message}" });
-            }
-        }
+				var clothing = new Clothes
+				{
+					Id = 0,
+					User_id = cloth.User_id,
+					Name = cloth.Name,
+					Image_url = cloth.Image_url,
+					Category_id = cloth.Category_id,
+					Season_id = cloth.Season_id,
+					ColorId = cloth.ColorId
+				};
 
-        // Belirli kullanıcıya ait kıyafetleri getirir
-        [HttpGet("clothes/{userId}")]
+				var result = await _clothingService.AddClothingAsync(clothing);
+				return Ok(result);
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(500, new { message = $"Hata: {ex.Message}" });
+			}
+		}
+
+
+		// Belirli kullanıcıya ait kıyafetleri getirir
+		[HttpGet("clothes/{userId}")]
         public async Task<IActionResult> GetClothesByUserId(int userId)
         {
             try

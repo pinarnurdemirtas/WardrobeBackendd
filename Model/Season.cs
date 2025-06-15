@@ -1,6 +1,6 @@
-using WardrobeBackendd.Model;
+namespace WardrobeBackendd.Model;
 
-public class Color
+public class Season
 {
     public int Id { get; set; }
     public string Name { get; set; }
